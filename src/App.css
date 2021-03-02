@@ -1,0 +1,9 @@
+.editor {
+  width: 52%;
+  margin: 20px auto;
+}
+
+.quill-editor {
+  border: 1px solid blue;
+  min-height: 6em;
+}
