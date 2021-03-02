@@ -1,0 +1,8 @@
+{
+    "App":{
+        "SECRET_CODE" : "demo_app",
+        "PORT" : 5000,
+        "SALT_ROUNDS": 10,
+        "TokenExpiresIn":604800 
+    }
+}
