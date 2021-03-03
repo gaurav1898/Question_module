@@ -69,6 +69,7 @@ exports.GetAll = (req, res, next) => {
 }
 
 exports.GetCorrectAnswer = (req, res, next) => {
+    // QuestionSchema.findOne
     QuestionService.GetCorrectAnswer(req.params.answer, (err, answer) => {
         if (err) {
             console.log(err)
